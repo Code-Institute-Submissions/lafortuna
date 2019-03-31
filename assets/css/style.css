@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Caveat:100,200,300,400,500,600,700');
+
+/*--------------------------------------------------------------Colours */
+
+header {
+    background-color: rgba(8, 8, 105, 0.62);
+    color: #fdc625;
+
+}
+
+/*--------------------------------------------------------------Heading */
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("/assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 280px;
+    background-position: center;
+}
+
+.middle-part {
+    margin: 10px 5px;
+    font-family: "Sedgwick Ave Display", cursive;
+    text-align: center
+}
+
+.name {
+    font-size: 5em;
+}
+
+.subtitle {}
+
+.third-line {}
+
+.additional-info {
+    font-family: "Caveat", cursive;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.translation {
+    text-align: center;
+    font-size: 17px;
+    color: #000080;
+    background-color: #fdc625;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.info-details {
+    text-align: left;
+    border: double;
+    margin: 10px 10px 10px 0px;
+}
+
