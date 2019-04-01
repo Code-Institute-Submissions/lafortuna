@@ -6,13 +6,94 @@
 header {
     background-color: rgba(8, 8, 105, 0.62);
     color: #fdc625;
-
 }
+
+.navbar-light .navbar-brand {
+    color: #ffc626;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 132, .75);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(253, 198, 37);
+}
+
+.about {
+    background-color: rgba(255, 198, 38, 0.5);
+    position: absolute;
+    right: 0;
+}
+
+
+/*--------------------------------------------------------------Navbar */
+
+.navbar-brand {
+    font-family: "Sedgwick Ave Display", cursive;
+    color: #fdc625;
+}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar-container {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    background-color: #6666a2;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler-icon {
+    color: #fdc625;
+    border-color: #fdc625;
+}
+
+.navbar-light .navbar-brand {
+    color: #fdc625;
+}
+
+.navbar .nav-link {
+    text-align: justify;
+    color: #fdc625;
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+
 
 /*--------------------------------------------------------------Heading */
 
 header {
     margin: 0;
+}
+
+}
+
+@media (min-width: 1024px) {
+    .heading {
+        margin-top: 0;
+    }
 }
 
 .logo {
@@ -21,21 +102,28 @@ header {
     background-size: contain;
     min-height: 280px;
     background-position: center;
+    margin-top: 10px;
 }
 
 .middle-part {
-    margin: 10px 5px;
+    margin: 20px 5px 10px 5px;
     font-family: "Sedgwick Ave Display", cursive;
-    text-align: center
+    text-align: center;
+    width: 100%;
 }
 
 .name {
-    font-size: 5em;
+    font-size: 13vw;
 }
 
-.subtitle {}
+.subtitle {
+    font-size: 5vw;
+}
 
-.third-line {}
+.third-line {
+    font-size: 3vw
+}
+
 
 .additional-info {
     font-family: "Caveat", cursive;
@@ -52,6 +140,12 @@ header {
     width: 100%;
     margin-top: 10px;
     margin-right: 10px;
+    border: 0;
+}
+
+.translation a {
+    color: #6666a2;
+    font-weight: 700;
 }
 
 .info-details {
@@ -60,3 +154,31 @@ header {
     margin: 10px 10px 10px 0px;
 }
 
+/*--------------------------------------------------------------Navpanel */
+
+.navpanel-list li {
+    font-family: "Caveat", cursive;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    border: double;
+    margin: 10px 10px 10px 0px;
+
+}
+
+
+/*--------------------------------------------------------------About */
+
+.micasa {
+    font-family: "Sedgwick Ave Display", cursive;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.restaurant-history {
+    font-family: "Caveat", cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
