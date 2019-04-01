@@ -23,16 +23,25 @@ header {
     color: rgb(253, 198, 37);
 }
 
-.about {
-    background-color: rgba(255, 198, 38, 0.5);
-    position: absolute;
-    right: 0;
-}
 
 .btn-primary {
     color: #6666a2;
     background-color: #fdc625;
     border-color: #dc3545;
+}
+
+.main-content {
+    background-color: rgba(253, 198, 37, 0.48);
+}
+
+.sidepanel {
+    background-color: #6666a2;
+    color: #fdc625;
+}
+
+footer {
+    background-color: rgb(76, 76, 121);
+    color: #ffc626;
 }
 
 
@@ -94,7 +103,6 @@ header {
     margin: 0;
 }
 
-}
 
 @media (min-width: 1024px) {
     .heading {
@@ -119,11 +127,11 @@ header {
 }
 
 .name {
-    font-size: 13vw;
+    font-size: 7vw;
 }
 
 .subtitle {
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 .third-line {
@@ -147,11 +155,17 @@ header {
     margin-top: 10px;
     margin-right: 10px;
     border: 0;
+    border-color: #dc3545;
+    border-width: 3px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    border-style: solid;
 }
 
 .translation a {
     color: #6666a2;
     font-weight: 700;
+
 }
 
 .info-details {
@@ -164,6 +178,8 @@ header {
 
 .navpanel-list {
     list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .navpanel {
@@ -172,9 +188,23 @@ header {
     border-style: double;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.btn-primary {
+    border-width: 3px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 /*--------------------------------------------------------------About */
+
+.about {
+    position: relative;
+    right: 0;
+}
+
 
 .micasa {
     font-family: "Sedgwick Ave Display", cursive;
@@ -189,3 +219,40 @@ header {
     margin-right: 10px;
     font-size: 20px;
 }
+
+/*--------------------------------------------------------------Sidepanel */
+
+.sidepanel-list {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.sidepanel {
+    font-family: "Sedgwick Ave Display";
+    font-size: 20px;
+    border-style: double;
+    max-width: 25%;
+    padding: 10px 0;
+}
+
+/*--------------------------------------------------------------Footer */
+
+footer {
+    font-family: "Caveat", cursive;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.contact-details {
+    text-align: center;
+    font-size: 4vw;
+}
+
+.social-links {
+    text-align: center;
+    font-size: 3vw;
+}
+
+
