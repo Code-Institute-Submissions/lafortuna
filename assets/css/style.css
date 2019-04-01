@@ -29,6 +29,12 @@ header {
     right: 0;
 }
 
+.btn-primary {
+    color: #6666a2;
+    background-color: #fdc625;
+    border-color: #dc3545;
+}
+
 
 /*--------------------------------------------------------------Navbar */
 
@@ -156,16 +162,17 @@ header {
 
 /*--------------------------------------------------------------Navpanel */
 
-.navpanel-list li {
-    font-family: "Caveat", cursive;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: left;
-    border: double;
-    margin: 10px 10px 10px 0px;
-
+.navpanel-list {
+    list-style-type: none;
 }
 
+.navpanel {
+    font-family: "Sedgwick Ave Display";
+    font-size: 20px;
+    border-style: double;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /*--------------------------------------------------------------About */
 
