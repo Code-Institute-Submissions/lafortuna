@@ -26,7 +26,7 @@ header {
 
 .btn-primary {
     color: #6666a2;
-    background-color: #fdc625;
+    background-color: rgba(8, 8, 105, 0.52);
     border-color: #dc3545;
 }
 
@@ -35,12 +35,12 @@ header {
 }
 
 .sidepanel {
-    background-color: #6666a2;
+    background-color: rgba(8, 8, 105, 0.52);
     color: #fdc625;
 }
 
 footer {
-    background-color: rgb(76, 76, 121);
+    background-color: rgba(8, 8, 105, 0.52);
     color: #ffc626;
 }
 
@@ -236,23 +236,18 @@ header {
     padding: 10px 0;
 }
 
+.sidepanel button {
+    margin-top: 20px;
+}
+
 /*--------------------------------------------------------------Footer */
 
 footer {
     font-family: "Caveat", cursive;
-    font-size: 15px;
+    font-size: 3vw;
     font-weight: 700;
     padding-top: 10px;
 }
 
-.contact-details {
-    text-align: center;
-    font-size: 4vw;
-}
-
-.social-links {
-    text-align: center;
-    font-size: 3vw;
-}
 
 
