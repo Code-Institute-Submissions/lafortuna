@@ -133,11 +133,16 @@ header {
     border-style: solid;
 }
 
-.translation a {
-    color: #000080;
-    font-weight: 700;
+.translation:hover,
+.translation:active,
+.translation:focus,
+.translation:active:focus {
+    color: #fdc625;
     text-decoration: none;
+    background-color: #c60b1e;
+    border-color: #000080;
 }
+
 .info-details {
     font-family: "Caveat";
     font-weight: 700;
@@ -187,11 +192,6 @@ header {
 
 /*--------------------------------------------------------------Sidepanel */
 
-.sidepanel-list {
-    list-style-type: none;
-    margin-top: 5px;
-    margin-bottom: 0;
-}
 
 .sidepanel {
     font-family: "Caveat";
@@ -200,6 +200,20 @@ header {
     border-style: double;
     max-width: 25%;
     padding: 10px 0;
+}
+
+.sidepanel-list {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+.sidepanel-list li:hover,
+.sidepanel-list li:active,
+.sidepanel-list li:focus,
+.sidepanel-list li:active:focus {
+    background-color: rgba(0, 0, 128, .3);
 }
 
 .sidepanel a {
@@ -225,10 +239,10 @@ header {
     padding: 0;
 }
 
-.sidepanel a:hover,
-.sidepanel a:active,
-.sidepanel a:focus,
-.sidepanel a:active:focus {
+.sidepanel button:hover,
+.sidepanel button:active,
+.sidepanel button:focus,
+.sidepanel button:active:focus {
     color: #fdc625;
     text-decoration: none;
     background-color: #c60b1e;
