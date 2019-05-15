@@ -4,43 +4,36 @@
 /*--------------------------------------------------------------Colours */
 
 header {
-    background-color: rgba(8, 8, 105, 0.62);
-    color: #fdc625;
+    background-color: rgba(1, 1, 129, 0.3);
+    color: #000080;
 }
 
-.navbar-light .navbar-brand {
+.navbar-dark .navbar-brand {
     color: #ffc626;
 }
 
-.navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 132, .75);
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: rgb(253, 198, 37);
-}
-
-
 .btn-primary {
-    color: #6666a2;
-    background-color: rgba(8, 8, 105, 0.52);
+    color: #000080;
+    background-color: rgb(255, 198, 38);
     border-color: #dc3545;
 }
 
+.name {
+    color: #ffc626;
+}
+
 .main-content {
-    background-color: rgba(253, 198, 37, 0.48);
+background-color: #faebd7;
+    color: #000080;
 }
 
 .sidepanel {
-    background-color: rgba(8, 8, 105, 0.52);
-    color: #fdc625;
+    background-color: rgba(1, 1, 129, 0.3);
+    color: #000080;
 }
 
 footer {
-    background-color: rgba(8, 8, 105, 0.52);
+    background-color: rgba(1, 1, 134, 0.6);
     color: #ffc626;
 }
 
@@ -49,7 +42,7 @@ footer {
 
 .navbar-brand {
     font-family: "Sedgwick Ave Display", cursive;
-    color: #fdc625;
+    font-weight: 700;
 }
 
 .navalert-container {
@@ -61,7 +54,6 @@ footer {
     z-index: 1;
 }
 
-
 .navbar {
     margin-bottom: 0;
     border: 0;
@@ -69,33 +61,13 @@ footer {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.navbar-container {
-    margin: 0;
-    width: 100%;
-    padding: 0;
-    background-color: #6666a2;
-}
-
 .navbar .navbar-toggler {
     border: 0;
 }
 
-.navbar-toggler-icon {
-    color: #fdc625;
-    border-color: #fdc625;
+.navbar .navbar-nav a {
+    font-weight: bold;
 }
-
-.navbar-light .navbar-brand {
-    color: #fdc625;
-}
-
-.navbar .nav-link {
-    text-align: justify;
-    color: #fdc625;
-    font-family: "Sedgwick Ave Display", cursive;
-}
-
-
 
 /*--------------------------------------------------------------Heading */
 
@@ -104,12 +76,6 @@ header {
 }
 
 
-@media (min-width: 1024px) {
-    .heading {
-        margin-top: 0;
-    }
-}
-
 .logo {
     background: url("/assets/images/logo.png");
     background-repeat: no-repeat;
@@ -117,43 +83,47 @@ header {
     min-height: 280px;
     background-position: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.middle-part {
-    margin: 20px 5px 10px 5px;
-    font-family: "Sedgwick Ave Display", cursive;
+#middle-part {
+    margin: 0;
     text-align: center;
-    width: 100%;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .name {
-    font-size: 7vw;
+    font-family: "Sedgwick Ave Display", cursive;
 }
 
 .subtitle {
-    font-size: 4vw;
+    font-family: "Caveat";
+    font-weight: 700;
 }
+
 
 .third-line {
-    font-size: 3vw
+    font-family: "Caveat";
+    font-weight: 700;
 }
 
-
 .additional-info {
-    font-family: "Caveat", cursive;
+    font-family: "Caveat";
     font-weight: 700;
     font-size: 20px;
     margin-left: 10px;
 }
 
 .translation {
+    font-family: "Caveat";
+    font-weight: 700;
     text-align: center;
     font-size: 17px;
     color: #000080;
     background-color: #fdc625;
     width: 100%;
-    margin-top: 10px;
-    margin-right: 10px;
     border: 0;
     border-color: #dc3545;
     border-width: 3px;
@@ -165,46 +135,37 @@ header {
 .translation a {
     color: #6666a2;
     font-weight: 700;
-
 }
 
 .info-details {
+    font-family: "Caveat";
+    font-weight: 700;
     text-align: left;
     border: double;
-    margin: 10px 10px 10px 0px;
-}
-
-/*--------------------------------------------------------------Navpanel */
-
-.navpanel-list {
-    list-style-type: none;
-    margin-top: 5px;
-    margin-bottom: 0;
-}
-
-.navpanel {
-    font-family: "Sedgwick Ave Display";
-    font-size: 20px;
-    border-style: double;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-.btn-primary {
-    border-width: 3px;
-    border-radius: 15px;
-    margin-bottom: 5px;
     margin-top: 5px;
 }
 
-/*--------------------------------------------------------------About */
+@media (min-width: 768px) {
+    .name {
+        font-size: 8vw;
+    }
+    .subtitle {
+        font-size: 4vw;
+    }
+    .third-line {
+        font-size: 2vw;
+    }
+    .translation {
+        font-size: 1.5vw;
+    }
+}
 
-.about {
+/*--------------------------------------------------------------Main content */
+
+.main-content {
     position: relative;
     right: 0;
 }
-
 
 .micasa {
     font-family: "Sedgwick Ave Display", cursive;
@@ -214,7 +175,8 @@ header {
 }
 
 .restaurant-history {
-    font-family: "Caveat", cursive;
+    font-family: "Caveat";
+    font-weight: 700;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
@@ -229,7 +191,8 @@ header {
 }
 
 .sidepanel {
-    font-family: "Sedgwick Ave Display";
+    font-family: "Caveat";
+    font-weight: 700;
     font-size: 20px;
     border-style: double;
     max-width: 25%;
@@ -237,17 +200,42 @@ header {
 }
 
 .sidepanel button {
+    font-family: "Caveat";
+    font-weight: 700;
+    text-align: center;
+    font-size: 17px;
+    color: #000080;
+    background-color: #fdc625;
+    width: 100%;
+    border: 0;
+    border-color: #dc3545;
+    border-width: 3px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    border-style: solid;
     margin-top: 20px;
 }
 
 /*--------------------------------------------------------------Footer */
 
 footer {
-    font-family: "Caveat", cursive;
+    font-family: "Caveat";
     font-size: 3vw;
     font-weight: 700;
     padding-top: 10px;
 }
 
+#footer-content {
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
+#footer-content .col {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
 
+a {
+    color: #ffc626;
+}
