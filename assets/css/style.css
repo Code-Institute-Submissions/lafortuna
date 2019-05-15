@@ -33,7 +33,7 @@ background-color: #faebd7;
 }
 
 footer {
-    background-color: rgba(1, 1, 134, 0.6);
+    background-color: #000080;
     color: #ffc626;
 }
 
@@ -60,6 +60,7 @@ footer {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
 }
+
 
 .navbar .navbar-toggler {
     border: 0;
@@ -133,10 +134,10 @@ header {
 }
 
 .translation a {
-    color: #6666a2;
+    color: #000080;
     font-weight: 700;
+    text-decoration: none;
 }
-
 .info-details {
     font-family: "Caveat";
     font-weight: 700;
@@ -161,6 +162,8 @@ header {
 }
 
 /*--------------------------------------------------------------Main content */
+
+
 
 .main-content {
     position: relative;
@@ -199,6 +202,12 @@ header {
     padding: 10px 0;
 }
 
+.sidepanel a {
+    color: #000080;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 .sidepanel button {
     font-family: "Caveat";
     font-weight: 700;
@@ -213,9 +222,8 @@ header {
     border-radius: 15px;
     margin-bottom: 0px;
     border-style: solid;
-    margin-top: 20px;
+    padding: 0;
 }
-
 /*--------------------------------------------------------------Footer */
 
 footer {

@@ -14,7 +14,7 @@
 <body>
     <header>
         <!-- Navbar -->
-        <nav class="navbar sticky-top navbar-dark navbar-expand-sm d-md-none">
+        <nav class="navbar sticky-top navbar-dark navbar-expand-sm d-none">
             <a href="/" class="navbar-brand">La Fortuna</a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -25,15 +25,12 @@
                     <li class="catering"><i class="fas fa-concierge-bell"></i> Catering</li>
                     <li class="foodtruck"><i class="fas fa-truck"></i> Food Truck</li>
                     <li class="location"><i class="fas fa-map-marker-alt"></i> Location</li>
+                    <button class="btn btn-primary btn-lg btn-block book-table" type="submit"><i class="fas fa-calendar-alt"></i>  Book a Table</button>
                 </ul>
-                <button class="btn btn-primary btn-lg btn-block" type="submit"><i class="fas fa-calendar-alt"></i>  Book a Table</button>
-            </div>
-            <div class="d-none d-md-block">
-                <p class="navbar-text my-auto mr-2"><i>Great whisky delivered to your door!</i></p>
-                <a href="/login" class="btn btn--cta btn--green">Sign In / Sign Up</a>
+
             </div>
         </nav>
-
+        <!-- /Navbar -->
         <!-- Heading -->
         <div class="row no-gutters container-fluid align-items-center" id="heading">
             <a href="index.html" class="col-sm-12 col-md-3 col-lg-3 col-xl-3 inline logo">
@@ -46,8 +43,8 @@
 
             <!--Info panel-->
             <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 inline" id="additional-info">
-                <button class="translation"><a href="#"><img src="/assets/images/spain.svg" class="rounded-circle d-sm-inline" height="20px" width="20px"> Click aquí para Español</a>
-                    </button>
+                <button class="translation"><a href="#"><img src="/assets/images/spain.svg" class="rounded-circle d-sm-inline" height="20px" width="20px"> Click aquí para Español</a></button>
+
                 <div class="info-details">
                     <p>32 Newcraighall Road, Edinburgh EH15 3RD</p>
                     <p>Opening Hours:<br> Sunday - Thursday: 12.00 - 22.00<br> Friday &amp; Saturday: 11.00 - 23.00</p>
@@ -66,12 +63,12 @@
         <div class="row">
             <div class="col d-none d-sm-inline-block sidepanel">
                 <ul class="sidepanel-list">
-                    <li class="restaurant"><i class="fas fa-utensils"></i> Restaurant</li>
-                    <li class="catering"><i class="fas fa-concierge-bell"></i> Catering</li>
-                    <li class="foodtruck"><i class="fas fa-truck"></i> Food Truck</li>
-                    <li class="location"><i class="fas fa-map-marker-alt"></i> Location</li>
+                    <li class="restaurant"><a href="#"><i class="fas fa-utensils"></i> Restaurant</li></a>
+                    <li class="catering"><a href="#"><i class="fas fa-concierge-bell"></i> Catering</li></a>
+                    <li class="foodtruck"><a href="#"><i class="fas fa-truck"></i> Food Truck</li></a>
+                    <li class="location"><a href="#"><i class="fas fa-map-marker-alt"></i> Location</li></a>
                 </ul>
-                <button class="btn btn-primary btn-lg btn-block" type="submit"><i class="fas fa-calendar-alt"></i>  Book a Table</button>
+                <button class="btn btn-primary btn-lg btn-block" type="submit"><a href="#"><i class="fas fa-calendar-alt"></i>  Book a Table</button></a>
             </div>
 
             <!--/Sidepanel-->
