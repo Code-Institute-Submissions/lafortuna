@@ -82,31 +82,32 @@
                     "Catering"
                 </h2>
                 <p class="restaurant-history">
-                    This is the new addition to our family. We can cater for all sorts of events up to 150 people all over Scotland and north of England. For more information, please fill up the form below and we will be in touch as soon as possible.
+                    This is the new addition to our family. We can cater for all sorts of events up to 150 people all over Scotland and north of England. For more information, please fill up the form below and we will be in touch as soon as possible.<br>                    All fields marked with an asterisk (*) are mandatory.
                 </p>
                 <form>
                     <div class="form-row">
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="First name">
+                            <input type="text" class="form-control" placeholder=" * First name" required>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Last name">
+                            <input type="text" class="form-control" placeholder=" * Last name" required>
                         </div>
                     </div>
-                    <input class="form-control form-control-md" type="text" placeholder="Company name (if applicable)" />
-
+                    <div class="form-row">
+                        <input class="form-control form-control-md" type="text" placeholder="Company name (if applicable)" />
+                    </div>
                     <div class="form-row">
                         <div class="col">
-                            <input class="form-control form-control-md" type="email" placeholder="Email address" />
+                            <input class="form-control form-control-md" type="email" placeholder=" * Email address" required/>
                         </div>
-                        <div class="form-row">
-                            <div class="col">
-                                <input class="form-control form-control-md" type="number" placeholder="Phone number" />
-                            </div>
+                        <div class="col">
+                            <input class="form-control form-control-md" type="number" placeholder=" * Phone number" required/>
                         </div>
                     </div>
-                    <textarea class="form-control " id="info" placeholder="Please give us some details of the event (number of people, type of event, location, date, time, etc.)" rows="10"></textarea>
-                    <input type="submit" value="Submit" />
+                    <div class="form-row">
+                        <textarea class="form-control " id="info" placeholder=" * Please give us some details of the event (number of people, type of event, location, date, time, etc.)" rows="10" required></textarea>
+                        <input id="submit" type="submit" value="Submit"/>
+                    </div>
                 </form>
             </div>
             <!-- /Main Content -->
@@ -156,6 +157,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
