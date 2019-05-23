@@ -251,11 +251,11 @@ header {
 }
 
 .menus a {
-    font-family: "Caveat";
+    font-family: "Sedgwick Ave Display", cursive;
     font-weight: 700;
     color: #000080;
     text-decoration: none;
-    padding-inline-end: 30px;
+    padding-right: 30px;
 
 }
 
@@ -268,13 +268,13 @@ header {
 
 @media (max-width: 425px) {
     .restaurant-history {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
 @media (min-width: 426px) {
     .menus a {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
