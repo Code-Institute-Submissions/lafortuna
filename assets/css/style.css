@@ -59,7 +59,7 @@ footer {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 128, 0.5);
+    background-color: rgba(0, 0, 128, 0.8);
 }
 
 
@@ -414,6 +414,12 @@ footer a:active:focus {
 
 /*--------------------------------------------------------------Form */
 
+form {
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+}
+
 .form-row {
     margin-bottom: 5px;
 }
@@ -443,11 +449,12 @@ input[type="number"] {
     border-color: #c60b1e;
     border-width: 3px;
     border-radius: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     border-style: solid;
     padding: 0;
-    width: -webkit-fill-available;
+    width: 200px;
+    height: 50px;
+    
 }
 
 #submit:hover,
@@ -478,6 +485,10 @@ input[type="number"] {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
+}
+
+.directions li {
+    margin-bottom: 10px;
 }
 
 @media (max-width: 425px) {

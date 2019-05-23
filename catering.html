@@ -25,7 +25,7 @@
                 <li class="foodtruck"><a href="foodtruck.html"><i class="fas fa-truck"></i> Food Truck</a></li>
                 <li class="location"><a href="location.html"><i class="fas fa-map-marker-alt"></i> Location</a></li>
             </ul>
-            <button class="btn btn-primary btn-lg btn-block" type="submit"><a href="#"><i class="fas fa-calendar-alt"></i>  Book a Table</a></button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit"><a target="_blank" href="https://www.opentable.co.uk/"><i class="fas fa-calendar-alt"></i>  Book a Table</a></button>
         </div>
     </nav>
     <!-- /Navbar -->
@@ -62,7 +62,7 @@
                     <li class="foodtruck"><a href="foodtruck.html"><i class="fas fa-truck"></i> Food Truck</a></li>
                     <li class="location"><a href="location.html"><i class="fas fa-map-marker-alt"></i> Location</a></li>
                 </ul>
-                <a href="#"><button class="btn btn-primary btn-lg btn-inline book-table" type="submit"><i class="fas fa-calendar-alt"></i>  Book a Table</button></a>
+                <a target="_blank" href="https://www.opentable.co.uk/"><button class="btn btn-primary btn-lg btn-inline book-table" type="submit"><i class="fas fa-calendar-alt"></i>  Book a Table</button></a>
 
                 <!--Info panel-->
                 <div id="additional-info">
@@ -81,9 +81,13 @@
                 <h2 class="micasa">
                     "Catering"
                 </h2>
-                <p class="restaurant-history">
-                    This is the new addition to our family. We can cater for all sorts of events up to 150 people all over Scotland and north of England. For more information, please fill in the form below and we will be in touch as soon as possible.<br>                    All fields marked with an asterisk (*) are mandatory.
-                </p>
+                <div class="restaurant-history">
+                    <p>
+                        This is the new addition to our family. We can cater for all sorts of events up to 150 people all over Scotland and north of England. For more information, please fill in the form below and we will be in touch as soon as possible.
+                    </p>
+                    <p>All fields marked with an asterisk (*) are mandatory.
+                    </p>
+                </div>
                 <form>
                     <div class="form-row">
                         <div class="col">
@@ -94,7 +98,9 @@
                         </div>
                     </div>
                     <div class="form-row">
-                        <input class="form-control form-control-md" type="text" placeholder="Company name (if applicable)" />
+                        <div class="col">
+                            <input class="form-control form-control-md" type="text" placeholder="Company name (if applicable)" />
+                        </div>
                     </div>
                     <div class="form-row">
                         <div class="col">
@@ -105,8 +111,14 @@
                         </div>
                     </div>
                     <div class="form-row">
-                        <textarea class="form-control " id="info" placeholder=" * Please give us some details of the event (number of people, type of event, location, date, time, etc.)" rows="10" required></textarea>
-                        <input id="submit" type="submit" value="Submit"/>
+                        <div class="col">
+                            <textarea class="form-control " id="info" placeholder=" * Please give us some details of the event (number of people, type of event, location, date, time, etc.)" rows="10" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <input id="submit" type="submit" value="Submit" />
+                        </div>
                     </div>
                 </form>
             </div>

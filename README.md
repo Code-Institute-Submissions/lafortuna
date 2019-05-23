@@ -12,6 +12,16 @@ All of them share the following:
 - A central section consisting of two parts. A sidepanel on the left hand side with a navigation menu, a button to make reservations and some additional info. The other part of this section contains the main content of each page. This last part is what is different on each page.
 - A footer including contact details (email and phone number) and links to social media sites.
 
+Regardless of where on the website the user is, they can access any of the other pages in only one click on tablet, laptop and computer versions; and in a maximum of two clicks on mobile version, as the navigation menu it's only accessible via the navbar at the top of the page, navbar which is always visible even when scrolling all the way down to the bottom of the screen.
+
+All links to external sites (email and social media) and files (restaurant menus in pdf) open in a new tab, allowing the user to keep the site also open with no need to use back or forward buttons on device/browser to navigate from one to the other.
+
+All external links are configurated on the same way, they will change font-colour when user hovers over them (tablet and computer) or taps on them (handheld devices).
+
+For internal links or navigation within the site, it's the background colour what changes to a slightly darker shade when the user hovers over them. 
+
+In the case of all buttons, the whole colour combination changes when hovering on a laptop or computer and when tapped on touchscreen devices.
+
 
 
 
